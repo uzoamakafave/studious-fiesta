@@ -8,5 +8,5 @@ def index():
     return render_template('countrylist.html', countries = countries)
 
     
-app.run()
+app.run(port=5001)
     
